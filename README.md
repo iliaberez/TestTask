@@ -2,9 +2,9 @@
 Python version 3.10.4
 beautifulsoup4 4.12.3
 pandas 2.2.0
-'''
+```
 pip install bs4, pandas, json
-'''
+```
 
 # Тестовое задание 1
 Парсинг данных(Python-playwright)
