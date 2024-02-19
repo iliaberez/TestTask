@@ -38,4 +38,4 @@ df = pd.DataFrame({'Release Version': ver_list,
                    })
     
 
-df.to_excel('./TestTask1/generate/Release version python.xlsx', sheet_name='Release version python', index=True)
+df.to_excel('./generate/Release version python.xlsx', sheet_name='Release version python', index=True)

@@ -14,7 +14,7 @@ def readJson(str_json):
             list.extend(temp)
     return list
 
-with open('./TestTask2/src/new_test_hw.json', 'r', encoding='utf-8') as file_json:
+with open('./src/new_test_hw.json', 'r', encoding='utf-8') as file_json:
     file_data = json.load(file_json)
 
 data = tuple(readJson(file_data))
